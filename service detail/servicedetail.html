@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANCE STUDIO WEBSITE</title>
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../service detail/servicedetail.css">
+</head>
+<body>
+ 
+    <header>
+        <nav class="nav-container">
+            <a href="#" class="logo-box">
+               <div class="logo">
+            <span class="logo-main">Dance</span>
+            <span class="logo-sub">IN HYD</span>
+        </div>
+            </a>
+ 
+            <ul class="nav-links" id="nav-menu">
+                <li class="nav-item">
+                    <a href="../index/index.html" class="nav-link">Home <i class="fas fa-home"></i></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a href="../home1/home1.html">Home1</a></li>
+                        
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="../about/about.html" class="nav-link">About</a></li>
+                <li class="nav-item">
+                    <a href="../service/service.html" class="nav-link">Services <i class="fas fa-tools"></i></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a href="../service detail/servicedetail.html">Service detail</a></li>
+                       
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="../blog/blog.html" class="nav-link">Blog <i class="fas fa-newspaper"></i></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a href="../blog detail/blogdetail.html">Blogdetail</a></li>
+                       
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="../contact/contact.html" class="nav-link">Contact</a></li>
+ 
+               
+                <div class="mobile-icons-in-menu">
+                    <a href="#" class="nav-link"><i class="fas fa-user-circle"></i> Login / Register</a>
+                    <a href="../admin/admin.html" class="nav-link"><i class="fas fa-user-shield"></i> Admin Dashboard</a>
+                </div>
+            </ul>
+ 
+            <div class="header-actions">
+                <button class="action-btn" id="theme-toggle" title="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+               
+             
+                <div class="header-auth-icons" style="display: flex; gap: 5px;">
+                    <a href="../register/register.html" class="action-btn" title="Login/Register">
+                        <i class="fas fa-user-circle"></i>
+                    </a>
+                    <a href="../admin/admin.html" class="action-btn" title="Admin Dashboard">
+                        <i class="fas fa-user-shield"></i>
+                    </a>
+                </div>
+ 
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+ <section class="pricing-section">
+    <div class="pricing-header">
+        <span class="service-tag">OUR SERVICES</span>
+        <h2 class="membership-title">Membership Plans</h2>
+    </div>
+
+    <div class="pricing-grid">
+      
+        <div class="price-card">
+            <div class="card-icon"><i class="fas fa-clock"></i></div>
+            <h3>On-Demand</h3>
+            <p class="plan-desc">No commitments. Pay by the hour.</p>
+            <div class="price-box">
+                <span class="currency">$</span>
+                <span class="amount">20</span>
+                <span class="period">/hr</span>
+            </div>
+            <ul class="features">
+                <li><i class="fas fa-check"></i> Free use of all workspaces</li>
+                <li><i class="fas fa-check"></i> Access to creative studios</li>
+                <li><i class="fas fa-check"></i> Free rentals of equipment</li>
+            </ul>
+            <button class="pricing-btn">Get started</button>
+        </div>
+
+      
+        <div class="price-card recommended">
+            <div class="badge">Recommended</div>
+            <div class="card-icon"><i class="fas fa-globe"></i></div>
+            <h3>Annual</h3>
+            <p class="plan-desc">Startups & agencies</p>
+            <div class="price-box">
+                <span class="currency">$</span>
+                <span class="amount">4800</span>
+                <span class="period">/year</span>
+            </div>
+            <ul class="features">
+                <li><i class="fas fa-check"></i> Everything in On-Demand</li>
+                <li><i class="fas fa-check"></i> 3 drink vouchers per week</li>
+                <li><i class="fas fa-check"></i> $150 print credits</li>
+            </ul>
+            <button class="pricing-btn">Get started</button>
+        </div>
+
+       
+        <div class="price-card">
+            <div class="card-icon"><i class="fas fa-calendar-alt"></i></div>
+            <h3>Monthly</h3>
+            <p class="plan-desc">Freelancers & creatives</p>
+            <div class="price-box">
+                <span class="currency">$</span>
+                <span class="amount">450</span>
+                <span class="period">/mo</span>
+            </div>
+            <ul class="features">
+                <li><i class="fas fa-check"></i> Everything in On-Demand</li>
+                <li><i class="fas fa-check"></i> 1 drink voucher per week</li>
+                <li><i class="fas fa-check"></i> $100 print credits</li>
+            </ul>
+            <button class="pricing-btn">Get started</button>
+        </div>
+    </div>
+</section>
+
+
+<section class="fees-section">
+    <div class="pricing-banner">
+        <div class="pricing-left">
+            <span class="fee-label">Term Fees</span>
+            <div class="price-display">
+                <span class="currency">$</span>
+                <span class="amount">190</span>
+                <span class="duration">/ Months</span>
+            </div>
+            <button class="pill-btn-alt">Choose Plan <i class="fas fa-arrow-right"></i></button>
+        </div>
+        <div class="pricing-right">
+            <ul class="features-list">
+                <li><i class="fas fa-check"></i> 12 Hours Session</li>
+                <li><i class="fas fa-check"></i> Individual Prices</li>
+                <li><i class="fas fa-check"></i> 24/7 Full Supports</li>
+                <li><i class="fas fa-check"></i> salsa dance class</li>
+                <li><i class="fas fa-check"></i> free style classes</li>
+            </ul>
+            <ul class="features-list">
+                <li><i class="fas fa-check"></i> Daily Workouts</li>
+                <li><i class="fas fa-check"></i> Offline & Online Classes</li>
+                <li><i class="fas fa-check"></i> events</li>
+                <li><i class="fas fa-check"></i> fulltime support</li>
+                <li><i class="fas fa-check"></i> makes confident</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<section class="payments-section">
+    <h2 class="script-payment-title">Make your payment</h2>
+    
+    <div class="payment-grid">
+     
+        <div class="payment-card">
+            <h3>Uniform Fee</h3>
+            <button class="pay-btn">Pay Now <i class="fas fa-arrow-right"></i></button>
+        </div>
+
+      
+        <div class="payment-card">
+            <h3>Annual Function Fee</h3>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <button class="pay-btn">Pay Now <i class="fas fa-arrow-right"></i></button>
+        </div>
+
+     
+        <div class="payment-card">
+            <h3>Workshop</h3>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <button class="pay-btn">Pay Now <i class="fas fa-arrow-right"></i></button>
+        </div>
+    </div>
+</section>
+<section class="membership-cta-section">
+    <div class="membership-overlay">
+        <div class="membership-container">
+          
+            <div class="membership-text-content">
+                <h2 class="membership-script-title">Inquire About Membership</h2>
+                <h4 class="membership-tagline">See It for Yourself</h4>
+                <p class="membership-description">
+                    Become a member of Dance In HYD and Elevate your fitness journey and lifestyle with exciting benefits and privileges from our partnering brands.
+                </p>
+                <a href="#" class="benefits-link">SEE MEMBERSHIP BENEFITS</a>
+            </div>
+
+         
+            <div class="membership-actions">
+                <button class="yellow-btn-full">BECOME A MEMBER</button>
+                <button class="outline-btn-white">SCHEDULE A TOUR</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    
+<footer class="main-footer">
+    <div class="footer-grid">
+        
+        <div class="footer-col">
+            <h2 class="footer-logo">Dance In HYD</h2>
+            <p class="footer-desc">
+                Credibly Synthesize Visionary Systems Before Functionalized Channels. 
+                Dynamically Enable Intermediated Relationships Through.
+            </p>
+            <div class="opening-hours">
+                <strong>Opening Hour:</strong><br>
+                Monday To Saturday<br>
+                10:00 AM - 09:00 PM
+            </div>
+        </div>
+
+       
+        <div class="footer-col">
+            <h3>QUICK LINKS</h3>
+            <ul class="footer-links">
+                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> About Us</a></li>
+                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Classes</a></li>
+                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Schedule</a></li>
+                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Package</a></li>
+                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Contact Us</a></li>
+            </ul>
+        </div>
+
+       
+        <div class="footer-col">
+            <h3>CONTACT NOW</h3>
+            <ul class="contact-info">
+                <li><i class="fas fa-map-marker-alt"></i> 835, NY ###, USA</li>
+                <li><i class="fas fa-phone-alt"></i> +91 **</li>
+                <li><i class="fas fa-envelope"></i> help24/7@gmail.com</li>
+            </ul>
+        </div>
+
+        
+        <div class="footer-col">
+            <h3>NEWSLETTER</h3>
+            <p>Sign Up To Get Updates & News About Us.</p>
+            <div class="newsletter-box">
+                <input type="email" placeholder="Enter your email">
+                <button class="subscribe-btn">SUBSCRIBE NOW</button>
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="footer-bottom">
+        <div class="bottom-content">
+            <p>Copyright © 2023 By <span class="highlight">Dance.</span> All Rights Reserved.</p>
+            <div class="bottom-links">
+                <a href="#">Terms of use</a> | <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+</footer>   
+    <script src="../service detail/servicedetail.js "></script>
+    </body>
+    </html>
